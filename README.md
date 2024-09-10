@@ -6,8 +6,8 @@ Web-API for [color.serialif.com](https://color.serialif.com) an REST API to get 
 async function main() {
 	const { Serialif } = require("./serialif.js");
 	const serialif = new Serialif()
-	const color_info = await serialif.getColorByKeyword("blue")
-	console.log(color_info)
+	const colorInfo = await serialif.getColorByKeyword("blue")
+	console.log(colorInfo)
 }
 
 main()
